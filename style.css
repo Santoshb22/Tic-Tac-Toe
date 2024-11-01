@@ -13,6 +13,13 @@ body {
     align-items: center;
 }
 
+#winner {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: larger;
+    color: greenyellow;
+}
+
 #game {
     display: flex;
     flex-wrap: wrap;
