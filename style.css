@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #3C3D37;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 19rem;
+    gap: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.box {
+    height: 6rem;
+    width: 6rem;
+    background-color: #ECDFCC;
+    cursor: pointer;
+    color: #D8A25E;
+    font-size: 4rem;
+    border-radius: 0.5rem;
+
+}
+
+#new-game {
+    padding: 1rem;
+    font-size: medium;
+    background-color: bisque;
+    color: black;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    margin: 2rem;
+}
